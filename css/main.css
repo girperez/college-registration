@@ -1,0 +1,197 @@
+.imageslide{
+    width: inherit;
+}
+
+.transparent{
+    background-color: inherit;
+}
+
+.colored{
+    background-color: rgb(227, 243, 255);
+}
+
+.icon-course{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 90px;
+    min-height: 90px;
+    width: 10vw;
+    height: 10vh;
+}
+
+.course-card:hover{
+    box-shadow: 0px 2px 30px 2px grey;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.course-quote{
+    font-size: relative;
+}
+.profile-light {
+    display: flex;
+    align-items: center;
+}
+
+.profile-light-image {
+    max-width: 66px;
+    border-radius: 50%;
+
+    vertical-align: middle;
+    border-style: none;
+
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-light-main{
+    padding-left: 20px;
+}
+
+.wow{
+    padding-bottom: 40px
+}
+
+#slide-top{
+    position: relative;
+}
+
+#wiw{
+    position: absolute;
+    top: 10vw;
+    left: 10%;
+}
+
+.quote{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: azure;
+    text-shadow: 5px 5px 10px black;
+}
+.student{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.indc{
+    height: 250px;
+}
+#block-1{
+    margin-right: 500px;
+    vertical-align: top;
+}
+
+/* footer */
+
+#myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+#myFooter .fa-google-plus:hover{
+    color:red;
+}
+
+#myFooter .fa-google-plus:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+/* registration.php */
+
+/* student.php */
